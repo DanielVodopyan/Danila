@@ -1,0 +1,182 @@
+body{
+  background-image: url(barcaback.jpg);
+  margin: 0px;
+}
+  nav{
+    background-color: black;
+    height: 65px;
+    margin: 0px;
+    width:100%;
+}
+header{
+height: 575px;
+width: 100%;
+}
+.title{
+font-size: 50px;
+font-family: 'Segoe UI Historic', monospace;
+color: white;
+padding: 10px;
+position: absolute;
+text-align: center;
+top: 50px;
+width:100%;
+}
+.boxcarousel
+{
+  width : 85%;
+  height : 500px;
+  margin-top: 90px;
+  position: relative;
+  left: 7.5%;
+}
+.imgc{
+  width : 65%;
+  height : 500px;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+h2{
+font-family: 'Lucida Calligraphy', monospace;
+text-align: center;
+position: relative;
+margin-left: 20%;
+margin-right: 20%;
+color:white;
+font-size: 35px;
+background-color: #d45258;
+opacity:0.9;
+width:62%;
+top:-60px;
+}
+section{
+margin: 20px 7% 0px 7%;
+width:85%;
+position: relative;
+}
+.p1{
+background-color: #d45258;
+margin: -40px 25% 30px 20%;
+font-family: 'Segoe UI Historic', monospace;
+color: white;
+font-size: 20px;
+text-align: center;
+width: 62%;
+position: relative;
+opacity:0.9;
+padding:20px;
+}
+.p2{
+background-color: #4349b8;
+font-family: 'Segoe UI Historic', monospace;
+color: white;
+font-size: 35px;
+text-align: center;
+width:50%;
+opacity:0.8;
+margin-left: 25%;
+margin-right: 25%;
+}
+.rowcontainer {
+width : 100%;
+position: relative;
+margin-right: 10%;
+margin-left: 0%;
+}
+h4{
+  padding-bottom: 15px;
+}
+.card {
+box-shadow: 0 4px 8px 0 rgb(67, 73, 184);
+transition: 0.3s;
+border-radius: 10px;
+color: white;
+width:100%;
+background-color:black;
+}
+.card:hover {
+box-shadow: 0 8px 16px 0 rgb(67, 73, 184);
+}
+.container {
+text-align: center;
+}
+footer{
+font-size: 15px;
+text-align: center;
+font-family: 'Arial';
+height: 155px;
+background-color: black;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top:30px;
+}
+#contacts{
+display:flex;
+justify-content: space-evenly;
+align-items:center;
+margin-bottom:20px;
+}
+.grow:hover{
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
+@media (max-width: 768px) {
+.title{
+font-size: 30px;
+margin-top:50px;
+}
+h2{
+  width:80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.p1{
+  width:80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+  section{
+    width:100%;
+    margin-left:0px;
+    margin-right:10px;
+}
+.imgc{
+  width:100%;
+  margin-left: 0px;
+}
+.p2{
+  width:80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+}
+@media (max-width: 576px) {
+  h2{
+    width:85%;
+    margin-left: 8%;
+    margin-right: 10%;
+  }
+  .p1{
+    width:85%;
+    margin-left: 8%;
+    margin-right: 10%;
+  }
+  section{
+    width:100%;
+    margin-left:0px;
+    margin-right:10px;
+  }
+  .imgc{
+    width:100%;
+    margin-left: 0px;
+  }
+  .p2{
+    width:85%;
+    margin-left: 8%;
+    margin-right: 10%;
+  }
+  .card{
+      margin-top: 20px;
+  }
+}
